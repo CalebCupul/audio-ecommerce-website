@@ -1,0 +1,135 @@
+// Font Families
+$font-family-manrope-bold: 'Manrope Bold', sans-serif;
+$font-family-manrope-regular: 'Manrope Regular', sans-serif;
+$font-family-manrope-medium: 'Manrope Medium', sans-serif;
+
+// H1 Styles
+$h1-font-size: 56px;
+$h1-line-height: 58px;
+$h1-character-spacing: 2px;
+$h1-text-transform: uppercase;
+
+// H2 Styles
+$h2-font-size: 40px;
+$h2-line-height: 44px;
+$h2-character-spacing: 1.5px;
+$h2-text-transform: uppercase;
+
+// H3 Styles
+$h3-font-size: 32px;
+$h3-line-height: 36px;
+$h3-character-spacing: 1.15px;
+$h3-text-transform: uppercase;
+
+// H4 Styles
+$h4-font-size: 28px;
+$h4-line-height: 38px;
+$h4-character-spacing: 2px;
+$h4-text-transform: uppercase;
+
+// H5 Styles
+$h5-font-size: 24px;
+$h5-line-height: 33px;
+$h5-character-spacing: 1.7px;
+$h5-text-transform: uppercase;
+
+// H6 Styles
+$h6-font-size: 18px;
+$h6-line-height: 24px;
+$h6-character-spacing: 1.3px;
+$h6-text-transform: uppercase;
+
+// Overline Styles
+$overline-font-size: 14px;
+$overline-line-height: 19px;
+$overline-character-spacing: 10px;
+$overline-text-transform: uppercase;
+
+// Sub Title Styles
+$subtitle-font-size: 13px;
+$subtitle-line-height: 25px;
+$subtitle-character-spacing: 1px;
+$subtitle-text-transform: uppercase;
+
+// Body Styles
+$body-font-size: 15px;
+$body-line-height: 25px;
+
+h1 {
+    font-family: $font-family-manrope-bold;
+    font-size: $h1-font-size;
+    line-height: $h1-line-height;
+    letter-spacing: $h1-character-spacing;
+    text-transform: uppercase;
+  }
+
+  // H2 Styles
+h2 {
+    font-family: $font-family-manrope-bold;
+    font-size: $h2-font-size;
+    line-height: $h2-line-height;
+    letter-spacing: $h2-character-spacing;
+    text-transform: $h2-text-transform;
+  }
+  
+  // H3 Styles
+  h3 {
+    font-family: $font-family-manrope-bold;
+    font-size: $h3-font-size;
+    line-height: $h3-line-height;
+    letter-spacing: $h3-character-spacing;
+    text-transform: $h3-text-transform;
+  }
+  
+  // H4 Styles
+  h4 {
+    font-family: $font-family-manrope-bold;
+    font-size: $h4-font-size;
+    line-height: $h4-line-height;
+    letter-spacing: $h4-character-spacing;
+    text-transform: $h4-text-transform;
+  }
+  
+  // H5 Styles
+  h5 {
+    font-family: $font-family-manrope-bold;
+    font-size: $h5-font-size;
+    line-height: $h5-line-height;
+    letter-spacing: $h5-character-spacing;
+    text-transform: $h5-text-transform;
+  }
+  
+  // H6 Styles
+  h6 {
+    font-family: $font-family-manrope-bold;
+    font-size: $h6-font-size;
+    line-height: $h6-line-height;
+    letter-spacing: $h6-character-spacing;
+    text-transform: $h6-text-transform;
+  }
+  
+  // Overline Styles
+  .overline {
+    font-family: $font-family-manrope-regular;
+    font-size: $overline-font-size;
+    line-height: $overline-line-height;
+    letter-spacing: $overline-character-spacing;
+    text-transform: $overline-text-transform;
+  }
+  
+  // Sub Title Styles
+  .subtitle {
+    font-family: $font-family-manrope-bold;
+    font-size: $subtitle-font-size;
+    line-height: $subtitle-line-height;
+    letter-spacing: $subtitle-character-spacing;
+    text-transform: $subtitle-text-transform;
+  }
+  
+  // Body Styles
+  body {
+    font-family: $font-family-manrope-medium;
+    font-size: $body-font-size;
+    line-height: $body-line-height;
+  }
+  
